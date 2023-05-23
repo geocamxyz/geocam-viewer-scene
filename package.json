@@ -1,0 +1,34 @@
+{
+  "name": "geocam-viewer-scene",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "svelte": "^3.57.0",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.3.2",
+    "postcss-load-config": "^4.0.1",
+    "svelte-preprocess": "^5.0.3"
+  },
+  "dependencies": {
+    "arcgis-map": "https://gitpkg.now.sh/geocamxyz/connector-arcgis-map/src?v1.0.0",
+    "arcgis-scene": "https://gitpkg.now.sh/geocamxyz/connector-arcgis-scene/src?v1.0.0",
+    "compass-needle": "https://gitpkg.now.sh/geocamxyz/plugin-compass-needle/src?v1.0.0",
+    "esri-loader": "^3.7.0",
+    "geocam-viewer": "https://gitpkg.now.sh/geocamxyz/geocam-viewer/src?1.0.0",
+    "label": "https://gitpkg.now.sh/geocamxyz/plugin-label/src?v1.0.0",
+    "loading-indicator": "https://gitpkg.now.sh/geocamxyz/plugin-loading-indicator/src?v1.0.0",
+    "multiview-window": "https://gitpkg.now.sh/geocamxyz/plugin-multiview-window/src?v1.0.1",
+    "orbit-controls": "https://gitpkg.now.sh/geocamxyz/plugin-orbit-controls/src?v1.0.0",
+    "prev-next-control": "https://gitpkg.now.sh/geocamxyz/plugin-prev-next-control/src?v1.0.0",
+    "url-fragments": "https://gitpkg.now.sh/geocamxyz/plugin-url-fragments/src?v1.0.0"
+  }
+}
